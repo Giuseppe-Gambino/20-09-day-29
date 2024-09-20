@@ -1,0 +1,63 @@
+// bottoni
+.transparent-btn {
+  background-color: transparent;
+  opacity: 50%;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    opacity: 100%;
+  }
+
+  &:active {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(0.9);
+  }
+}
+
+.graySet-btn {
+  background-color: #666666;
+  color: #fff;
+  border: none;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+
+  &:hover {
+    background-color: #666666;
+  }
+
+  &:active {
+    background-color: #666666;
+    transform: scale(0.98);
+  }
+}
+
+.whiteSave-btn {
+  background-color: #ffffff;
+  color: #141414;
+  border: none;
+  padding: 0.25rem 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+
+  &:hover {
+    background-color: #666666;
+  }
+
+  &:active {
+    background-color: #666666;
+    transform: scale(0.98);
+  }
+}
